@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Hangman">
+
+    <title>Hangman</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <h1>Welcome to Hangman!</h1>
+    <h2>This is so <em>exciting</em> isn't it?</h2>
+
+    <div id="pregame-message">
+      <h3>Ready to play? Click Start!</h3>
+      <button id="start">Start!</button>
+    </div>
+
+    <br>
+    <div id="letter-input">
+      Guess a letter: <input id="letterGuessed" type="text">
+
+      <button id="guess">Guess!</button>
+    </div>
+    <br>
+    <div id="word-format"></div>
+    <h4 id="guess-message"></h4>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="solution.js"></script>
+  </body>
+</html>
